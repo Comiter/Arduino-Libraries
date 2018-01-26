@@ -139,3 +139,6 @@
 [submodule "MadgwickAHRS"]
 	path = MadgwickAHRS
 	url = https://github.com/arduino-libraries/MadgwickAHRS
+[submodule "MCP342X"]
+	path = MCP342X
+	url = https://github.com/uChip/MCP342X
