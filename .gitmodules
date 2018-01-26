@@ -145,3 +145,6 @@
 [submodule "MLP"]
 	path = MLP
 	url = https://github.com/Megunolink/MLP
+[submodule "NewPingESP8266"]
+	path = NewPingESP8266
+	url = https://github.com/jshaw/NewPingESP8266
