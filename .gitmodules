@@ -157,3 +157,6 @@
 [submodule "Arduino-PID-Library"]
 	path = Arduino-PID-Library
 	url = https://github.com/br3ttb/Arduino-PID-Library
+[submodule "PWM"]
+	path = PWM
+	url = https://github.com/RCS101/PWM
