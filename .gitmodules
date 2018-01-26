@@ -148,3 +148,9 @@
 [submodule "NewPingESP8266"]
 	path = NewPingESP8266
 	url = https://github.com/jshaw/NewPingESP8266
+[submodule "NexaCtrl"]
+	path = NexaCtrl
+	url = https://github.com/calle-gunnarsson/NexaCtrl
+[submodule "ColorLCDShield"]
+	path = ColorLCDShield
+	url = https://github.com/sparkfun/ColorLCDShield
