@@ -40,9 +40,6 @@
 [submodule "Modbus-Master-Slave-for-Arduino"]
 	path = Modbus-Master-Slave-for-Arduino
 	url = https://github.com/PaulStoffregen/Modbus-Master-Slave-for-Arduino
-[submodule "OneWire"]
-	path = OneWire
-	url = https://github.com/PaulStoffregen/OneWire
 [submodule "TimerOne"]
 	path = TimerOne
 	url = https://github.com/PaulStoffregen/TimerOne
