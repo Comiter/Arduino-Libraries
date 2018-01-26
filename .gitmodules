@@ -58,9 +58,6 @@
 [submodule "TinyGPS"]
 	path = TinyGPS
 	url = https://github.com/PaulStoffregen/TinyGPS
-[submodule "ardgrafix6100"]
-	path = ardgrafix6100
-	url = https://github.com/srinathh/ardgrafix6100
 [submodule "ArduinoProcessScheduler"]
 	path = ArduinoProcessScheduler
 	url = https://github.com/wizard97/ArduinoProcessScheduler
@@ -100,3 +97,24 @@
 [submodule "CmdArduino"]
 	path = CmdArduino
 	url = https://github.com/joshmarinacci/CmdArduino
+[submodule "Arduino-Temperature-Control-Library"]
+	path = Arduino-Temperature-Control-Library
+	url = https://github.com/milesburton/Arduino-Temperature-Control-Library
+[submodule "digitalWriteFast"]
+	path = digitalWriteFast
+	url = https://github.com/NicksonYap/digitalWriteFast
+[submodule "EasyButton"]
+	path = EasyButton
+	url = https://github.com/brianrumburg/EasyButton
+[submodule "Arduino-EasyTransfer"]
+	path = Arduino-EasyTransfer
+	url = https://github.com/madsci1016/Arduino-EasyTransfer
+[submodule "Arduino-EEPROMEx"]
+	path = Arduino-EEPROMEx
+	url = https://github.com/thijse/Arduino-EEPROMEx
+[submodule "FrequencyTimer2"]
+	path = FrequencyTimer2
+	url = https://github.com/PaulStoffregen/FrequencyTimer2
+[submodule "arduino.FiniteStateMachine"]
+	path = arduino.FiniteStateMachine
+	url = https://github.com/isaacws/arduino.FiniteStateMachine
