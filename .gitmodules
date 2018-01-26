@@ -58,3 +58,45 @@
 [submodule "TinyGPS"]
 	path = TinyGPS
 	url = https://github.com/PaulStoffregen/TinyGPS
+[submodule "ardgrafix6100"]
+	path = ardgrafix6100
+	url = https://github.com/srinathh/ardgrafix6100
+[submodule "ArduinoProcessScheduler"]
+	path = ArduinoProcessScheduler
+	url = https://github.com/wizard97/ArduinoProcessScheduler
+[submodule "ATHandler"]
+	path = ATHandler
+	url = https://github.com/sebasira/ATHandler
+[submodule "AutoAnalogAudio"]
+	path = AutoAnalogAudio
+	url = https://github.com/TMRh20/AutoAnalogAudio
+[submodule "Button"]
+	path = Button
+	url = https://github.com/madleech/Button
+[submodule "Auto485"]
+	path = Auto485
+	url = https://github.com/madleech/Auto485
+[submodule "ChibiOS-Arduino"]
+	path = ChibiOS-Arduino
+	url = https://github.com/greiman/ChibiOS-Arduino
+[submodule "SdFat"]
+	path = SdFat
+	url = https://github.com/greiman/SdFat
+[submodule "SerialPort"]
+	path = SerialPort
+	url = https://github.com/greiman/SerialPort
+[submodule "ChRt"]
+	path = ChRt
+	url = https://github.com/greiman/ChRt
+[submodule "DigitalIO"]
+	path = DigitalIO
+	url = https://github.com/greiman/DigitalIO
+[submodule "ChNil"]
+	path = ChNil
+	url = https://github.com/greiman/ChNil
+[submodule "NilRTOS-Arduino"]
+	path = NilRTOS-Arduino
+	url = https://github.com/greiman/NilRTOS-Arduino
+[submodule "CmdArduino"]
+	path = CmdArduino
+	url = https://github.com/joshmarinacci/CmdArduino
