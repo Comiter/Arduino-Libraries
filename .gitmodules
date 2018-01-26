@@ -172,3 +172,21 @@
 [submodule "ArduinoRingBuffer"]
 	path = ArduinoRingBuffer
 	url = https://github.com/wizard97/ArduinoRingBuffer
+[submodule "SerialGSM"]
+	path = SerialGSM
+	url = https://github.com/meirm/SerialGSM
+[submodule "SevenSeg"]
+	path = SevenSeg
+	url = https://github.com/sigvaldm/SevenSeg
+[submodule "Snooze"]
+	path = Snooze
+	url = https://github.com/duff2013/Snooze
+[submodule "TinyEKF"]
+	path = TinyEKF
+	url = https://github.com/simondlevy/TinyEKF
+[submodule "TinyGPSPlus"]
+	path = TinyGPSPlus
+	url = https://github.com/mikalhart/TinyGPSPlus
+[submodule "TMRpcm"]
+	path = TMRpcm
+	url = https://github.com/TMRh20/TMRpcm
