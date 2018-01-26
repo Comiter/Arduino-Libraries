@@ -187,3 +187,6 @@
 [submodule "TMRpcm"]
 	path = TMRpcm
 	url = https://github.com/TMRh20/TMRpcm
+[submodule "TinyGPS"]
+	path = TinyGPS
+	url = https://github.com/mikalhart/TinyGPS
