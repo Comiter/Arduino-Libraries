@@ -142,3 +142,6 @@
 [submodule "MCP342X"]
 	path = MCP342X
 	url = https://github.com/uChip/MCP342X
+[submodule "MLP"]
+	path = MLP
+	url = https://github.com/Megunolink/MLP
