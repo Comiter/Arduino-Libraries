@@ -160,3 +160,15 @@
 [submodule "OneWire"]
 	path = OneWire
 	url = https://github.com/PaulStoffregen/OneWire
+[submodule "RA8875"]
+	path = RA8875
+	url = https://github.com/sumotoy/RA8875
+[submodule "RadioHead"]
+	path = RadioHead
+	url = https://github.com/Yveaux/RadioHead
+[submodule "DS1307RTC"]
+	path = DS1307RTC
+	url = https://github.com/PaulStoffregen/DS1307RTC
+[submodule "ArduinoRingBuffer"]
+	path = ArduinoRingBuffer
+	url = https://github.com/wizard97/ArduinoRingBuffer
