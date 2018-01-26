@@ -157,3 +157,6 @@
 [submodule "PWM"]
 	path = PWM
 	url = https://github.com/RCS101/PWM
+[submodule "OneWire"]
+	path = OneWire
+	url = https://github.com/PaulStoffregen/OneWire
