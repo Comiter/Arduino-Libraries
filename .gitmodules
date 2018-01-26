@@ -1,0 +1,3 @@
+[submodule "Adafruit_MQTT_Library"]
+	path = Adafruit_MQTT_Library
+	url = https://github.com/adafruit/Adafruit_MQTT_Library
