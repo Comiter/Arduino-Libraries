@@ -118,3 +118,18 @@
 [submodule "arduino.FiniteStateMachine"]
 	path = arduino.FiniteStateMachine
 	url = https://github.com/isaacws/arduino.FiniteStateMachine
+[submodule "ViSi-Genie-Arduino-Library"]
+	path = ViSi-Genie-Arduino-Library
+	url = https://github.com/4dsystems/ViSi-Genie-Arduino-Library
+[submodule "GSL1680"]
+	path = GSL1680
+	url = https://github.com/ESTBLC/GSL1680
+[submodule "GSM-GPRS-GPS-Shield"]
+	path = GSM-GPRS-GPS-Shield
+	url = https://github.com/MarcoMartines/GSM-GPRS-GPS-Shield
+[submodule "HX711"]
+	path = HX711
+	url = https://github.com/bogde/HX711
+[submodule "gpio_expander"]
+	path = gpio_expander
+	url = https://github.com/sumotoy/gpio_expander
