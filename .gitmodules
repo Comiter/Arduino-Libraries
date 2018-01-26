@@ -133,3 +133,9 @@
 [submodule "gpio_expander"]
 	path = gpio_expander
 	url = https://github.com/sumotoy/gpio_expander
+[submodule "Low-Power"]
+	path = Low-Power
+	url = https://github.com/rocketscream/Low-Power
+[submodule "MadgwickAHRS"]
+	path = MadgwickAHRS
+	url = https://github.com/arduino-libraries/MadgwickAHRS
