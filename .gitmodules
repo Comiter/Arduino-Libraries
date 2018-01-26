@@ -1,3 +1,60 @@
 [submodule "Adafruit_MQTT_Library"]
 	path = Adafruit_MQTT_Library
 	url = https://github.com/adafruit/Adafruit_MQTT_Library
+[submodule "Adafruit_FT6206_Library"]
+	path = Adafruit_FT6206_Library
+	url = https://github.com/adafruit/Adafruit_FT6206_Library
+[submodule "Adafruit_RA8875"]
+	path = Adafruit_RA8875
+	url = https://github.com/adafruit/Adafruit_RA8875
+[submodule "Adafruit_SleepyDog"]
+	path = Adafruit_SleepyDog
+	url = https://github.com/adafruit/Adafruit_SleepyDog
+[submodule "Adafruit-GFX-Library"]
+	path = Adafruit-GFX-Library
+	url = https://github.com/adafruit/Adafruit-GFX-Library
+[submodule "Adafruit-ST7735-Library"]
+	path = Adafruit-ST7735-Library
+	url = https://github.com/adafruit/Adafruit-ST7735-Library
+[submodule "ADC"]
+	path = ADC
+	url = https://github.com/pedvide/ADC
+[submodule "AFrame"]
+	path = AFrame
+	url = https://github.com/AndreiDegtiarev/AFrame
+[submodule "AWind"]
+	path = AWind
+	url = https://github.com/AndreiDegtiarev/AWind
+[submodule "ASensor"]
+	path = ASensor
+	url = https://github.com/AndreiDegtiarev/ASensor
+[submodule "Agenda"]
+	path = Agenda
+	url = https://github.com/gioblu/Agenda
+[submodule "AltSoftSerial"]
+	path = AltSoftSerial
+	url = https://github.com/PaulStoffregen/AltSoftSerial
+[submodule "Time"]
+	path = Time
+	url = https://github.com/PaulStoffregen/Time
+[submodule "Modbus-Master-Slave-for-Arduino"]
+	path = Modbus-Master-Slave-for-Arduino
+	url = https://github.com/PaulStoffregen/Modbus-Master-Slave-for-Arduino
+[submodule "OneWire"]
+	path = OneWire
+	url = https://github.com/PaulStoffregen/OneWire
+[submodule "TimerOne"]
+	path = TimerOne
+	url = https://github.com/PaulStoffregen/TimerOne
+[submodule "SPI"]
+	path = SPI
+	url = https://github.com/PaulStoffregen/SPI
+[submodule "FastCRC"]
+	path = FastCRC
+	url = https://github.com/PaulStoffregen/FastCRC
+[submodule "CapacitiveSensor"]
+	path = CapacitiveSensor
+	url = https://github.com/PaulStoffregen/CapacitiveSensor
+[submodule "TinyGPS"]
+	path = TinyGPS
+	url = https://github.com/PaulStoffregen/TinyGPS
