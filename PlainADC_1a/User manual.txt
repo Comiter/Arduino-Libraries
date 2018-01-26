@@ -1,0 +1,202 @@
+Copyright (C) 2012 Didier Longueville
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+	
+PlainADC library contains a set of functions which are dedicated to signal acquisition. 
+These functions have been made versatile enough to cover most of the usual needs. 
+
+Principle of use:
+- Set acquisition engine parameters
+- Run acquisition engine
+- Read acquired data
+- Release acquisition engine
+
+Specifications:
+
+Data format:
+- unsigned 16 bits integer
+- 32 bits floats
+
+Smapling rate:
+From 0.125 Hz up to 130 kHz
+
+The vector containing data can be user defined or automatically created while setting acquisition engine parameters.
+<?> Care shall be taken with the size of the vector. Arduino processors have a limited amount of ram (up to 2K on ATEMEGA328)
+
+Functions and commands
+
+---------------------------------------------------------------------------------------------------
+Average(vData, samples)
+---------------------------------------------------------------------------------------------------
+
+arguments:
+- vData is a pointer to the vector of doubles containing samples
+- samples is the number of samples 
+
+returns:
+- average of sample intensities
+
+comments:
+- average is equivalent to arithmetic mean
+
+
+---------------------------------------------------------------------------------------------------
+GetDataAddress()
+---------------------------------------------------------------------------------------------------
+
+arguments:
+- None
+
+returns:
+- pointer to the acquired data. This address is nulled while releasing the acquisition engine
+
+comments:
+- none
+
+
+---------------------------------------------------------------------------------------------------
+GetScanData
+---------------------------------------------------------------------------------------------------
+
+arguments:
+- None
+
+returns:
+- nothing
+
+comments:
+- on completion of function, data are available in the data vector as per the acquisition parameter settings 
+
+
+---------------------------------------------------------------------------------------------------
+GetSingleDbl32Data
+---------------------------------------------------------------------------------------------------
+
+arguments:
+- None
+
+returns:
+- 32 bits float containing the 10 bits from the ADC
+
+comments:
+- Data acquisition is performed using the parameters as in SetAcquisitionEngine
+
+
+---------------------------------------------------------------------------------------------------
+GetSingleUInt16Data
+---------------------------------------------------------------------------------------------------
+
+arguments:
+- None
+
+returns:
+- 16 bits integer containing the 10 bits from the ADC
+
+comments:
+- Data acquisition is performed using the parameters as in SetAcquisitionEngine
+
+
+---------------------------------------------------------------------------------------------------
+ReadDbl32Data(sample)
+---------------------------------------------------------------------------------------------------
+
+arguments:
+- sample: index of sample within the last acquired vector of data
+
+returns:
+- 32 bits float containing 10 bits precision data
+
+comments:
+- single channel mode
+
+
+---------------------------------------------------------------------------------------------------
+ReadUInt16Data(sample)
+---------------------------------------------------------------------------------------------------
+
+arguments:
+- sample: index of sample within the last acquired vector of data
+
+returns:
+- 16 bits integer containing a 10 bits precision data, depending upon the acquisition parameters
+
+comments:
+- single channel mode
+
+
+---------------------------------------------------------------------------------------------------
+ReleaseAcquisitionEngine
+---------------------------------------------------------------------------------------------------
+	
+without parameter
+returns nothing
+
+comments:
+- nulls the destination vector of data
+
+
+---------------------------------------------------------------------------------------------------
+RMS(vData, samples)
+---------------------------------------------------------------------------------------------------
+
+arguments:
+- vData is a pointer to the vector of doubles containing samples
+- samples is the number of samples 
+
+returns:
+- the true root mean square computed over the sample intensities
+
+comments:
+- none
+
+
+---------------------------------------------------------------------------------------------------
+SetAcquisitionEngine(adcChannel, refVoltage, samplingFrequency, samples, dataFormat)
+---------------------------------------------------------------------------------------------------
+
+arguments:
+- adcChannel: one adc channel, allowed range from 0 to 5
+- refVoltage: the adc reference voltage, as per constants ADC_REF_VOL_x in PlainADCS.h
+- samplingFrequency: in hertz, check specifications for min and max values
+- samples: number of samples acquired during each run
+- dataFormat: format of acquired data, as per constants ADC_DAT_FMT_x in PlainADCS.h
+
+returns:
+- pointer to the acquired data. This address is nulled while releasing the acquisition engine
+
+comments:
+- single channel mode
+- you may forget everything about the pointer to the acquired data, if ReadUInt16Data and ReadDbl32Data functions
+  are enough for you
+
+  
+---------------------------------------------------------------------------------------------------
+Constants
+---------------------------------------------------------------------------------------------------
+
+Data formats:
+- ADC_DAT_FMT_UNDEFINED: undefined
+- ADC_DAT_FMT_INT: 16 bits unsigned integer
+- ADC_DAT_FMT_DBL : 32 bits float float
+
+Voltage references:
+- ADC_REF_VOL_EXTERNAL: As per AREF pin voltage
+- ADC_REF_VOL_DEFAULT: VCC, typically 5V
+- ADC_REF_VOL_INTERNAL: 1V1 on ATMEGA 168/328
+
+Sampling Frequency:
+- ADC_MIN_SMP_FREQUENCY = 0.125 Hz
+- ADC_MAX_SMP_FREQUENCY = 130000.0 Hz
+
+
