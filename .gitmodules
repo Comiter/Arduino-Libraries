@@ -193,3 +193,6 @@
 [submodule "SoftPWM"]
 	path = SoftPWM
 	url = https://github.com/bhagman/SoftPWM
+[submodule "arduino-pwm-frequency-library"]
+	path = arduino-pwm-frequency-library
+	url = https://github.com/phatpaul/arduino-pwm-frequency-library
