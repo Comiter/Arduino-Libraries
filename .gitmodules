@@ -196,3 +196,6 @@
 [submodule "arduino-pwm-frequency-library"]
 	path = arduino-pwm-frequency-library
 	url = https://github.com/phatpaul/arduino-pwm-frequency-library
+[submodule "ExtendedSerialPort"]
+	path = ExtendedSerialPort
+	url = https://github.com/greiman/SerialPort.git
