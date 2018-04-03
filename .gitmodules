@@ -199,3 +199,15 @@
 [submodule "ExtendedSerialPort"]
 	path = ExtendedSerialPort
 	url = https://github.com/greiman/SerialPort.git
+[submodule "spi4teensy3"]
+	path = spi4teensy3
+	url = https://github.com/xxxajk/spi4teensy3
+[submodule "ArduinoSerialCommand"]
+	path = ArduinoSerialCommand
+	url = https://github.com/scogswell/ArduinoSerialCommand.git
+[submodule "arduino-buffered-serial"]
+	path = arduino-buffered-serial
+	url = https://github.com/siggiorn/arduino-buffered-serial.git
+[submodule "AVR-UART-lib"]
+	path = AVR-UART-lib
+	url = https://github.com/jnk0le/AVR-UART-lib.git
